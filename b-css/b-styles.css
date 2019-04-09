@@ -95,3 +95,9 @@ font-size: 20px;
    color: white;
    text-align: center;
 }
+.final-footer  {
+  width:100%;
+  background-color: rgb(3,3,3,0.5);
+  height:300px;
+  margin-top:100px;
+}
