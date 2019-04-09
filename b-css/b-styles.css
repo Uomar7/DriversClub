@@ -42,7 +42,11 @@ opacity: 1;
   background-color:rgb(3,3,3,0.5);
 
 }
-
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(0.5);
+  transform: scale(1.1);
+}
 
 .text {
   background-color:rgb(3,3,3,0.5);
@@ -54,6 +58,8 @@ opacity: 1;
   text-align: center;
 
 }
+
+
 
 #about{
 background-color: white;
@@ -100,4 +106,27 @@ font-size: 20px;
   background-color: rgb(3,3,3,0.5);
   height:300px;
   margin-top:100px;
+}
+.panel-title  {
+  margin-bottom:20px;
+  font-size: 30px;
+  background-color:black;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  border-radius: 3px;
+  font-family: serif;
+}
+#img-all  {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+li  {
+  border: 2px solid black;
+  margin-bottom:10px;
+  padding: 3px;
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+  
 }
