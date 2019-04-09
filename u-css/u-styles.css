@@ -1,6 +1,6 @@
 .jumbotron{
     font-family: 'Times New Roman';
-    background-color: rgb(19, 16, 16);
+    background-color: rgb(12, 11, 11);
     padding-top: 60px;
     padding-bottom: 60px;
     margin-top: 20px;
@@ -9,5 +9,15 @@
 }
 .jumbotron h1{
     font-size: 100px;
-    color: rgb(226, 223, 220)
+    color: rgb(214, 213, 213)
+}
+#nav{
+    background-color:rgb(12, 11, 11);
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+li{
+    font-weight: 470;
+    font-size: 18px;
+    color: rgb(214, 213, 213);
 }
