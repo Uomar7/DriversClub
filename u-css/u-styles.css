@@ -1,0 +1,11 @@
+.jumbotron{
+    font-family: 'Times New Roman';
+    background-color: #eee;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 20px;
+    text-align: center;
+}
+.jumbotron h1{
+    font-size: 100px
+}
