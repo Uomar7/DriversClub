@@ -2,8 +2,13 @@ img{
   max-width: 100%;
   height: auto;
 }
+#nav{
+  overflow: hidden;
+  font-size: 30px;
+}
 body {
   background-color: black;
+  background-image: url("../J-images/b4.jpg") !important;
 }
 h1,h2,h3,h4,h5,h6 {
   margin: 0 0 15px;
@@ -16,19 +21,18 @@ h2 {
 html,body {
   height: 100%;
 }
-.hello{
-  background-image: url("../J-images/b4.jpg") !important;
+.cus-padding {
+  padding-right:;
+}
+.bg-area {
   height: 100%;
   position: absolute;
   left: 0;
   top: 0;
-  width: 60%;
+  width: 100%;
   content: '';
   -webkit-background-size:cover;
   background-size: cover;
-}
-.cus-padding {
-  padding-right:;
 }
 .bg-area:after {
   content: '';
@@ -38,7 +42,7 @@ html,body {
   height: 100%;
   width: 100%;
   background: black;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 .Contact-form {
   padding-top: 100px;
@@ -80,4 +84,8 @@ input:focus, textarea:focus, button:focus {
 }
 .right-text h3 {
   color: white;
+  font-size: 29px;
+}
+#f1,#f2,#f3,#f5 {
+  color: red;
 }
