@@ -5,20 +5,65 @@
   font-size: 200px;
   text-align: center;
   margin-bottom: 20px;
-
-
 }
-
 .container-fluid {
-
   margin-top: 1px;
-
 }
-
 .container {
   margin-left: 0;
   margin-right: 0;
   background-color: black;
+}
+.container2 {
+  position: relative;
+  width: 100%;
+}
+.container2:hover .overlay {
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(3, 3, 3, 0.5);
+}
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(0.5);
+  transform: scale(1.1);
+}
+.text {
+  background-color: rgb(3, 3, 3, 0.5);
+  opacity: .8;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  padding: 20px 10px;
+  text-align: center;
+}
+#slideshow {
+    width: 30px;
+    height: 50px;
+    padding: 0;
+}
+#slideshow > div {
+    top: 0;
+    left: 0;
+}
+#slideshow > div > img {
+    border: 2px solid black;
+    box-shadow: 0 0 20px white;
+    margin-bottom: 0;
+}
+#slide{
+  width:300px;
+  height:300px;
 }
 
 .container2 {
@@ -56,13 +101,6 @@
   text-align: center;
 
 }
-
-#about {
-  background-color: white;
-  font-family: serif;
-  font-size: 20px;
-}
-
 #aboutH {
   background-color: black;
   color: white;
@@ -73,16 +111,51 @@
   height: 60px;
   padding-top: 7px;
 }
-
 #img2 {
   float: right;
   height: 200px;
   margin-right: 5px;
   border: 2px solid grey;
 }
-
 .D {
   font-size: 45px;
+}
+#img-all {
+  margin-bottom: 15px;
+}
+#footer {
+  padding: 10px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(3, 3, 3, 0.5);
+  color: white;
+  text-align: center;
+}
+.panel-title  {
+  margin-bottom:20px;
+  font-size: 30px;
+  background-color:blac;
+  color: whit;
+  padding: 5px;
+  width: 100%;
+  border-radius: 3px;
+  font-family: serif;
+}
+#img-all  {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+li  {
+  border: 2px solid black;
+  margin-bottom:10px;
+  padding: 3px;
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
 }
 
 #img-all {

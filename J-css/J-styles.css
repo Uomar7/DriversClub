@@ -1,0 +1,83 @@
+img{
+  max-width: 100%;
+  height: auto;
+}
+body {
+  background-color: black;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0 0 15px;
+  font-weight: 700;
+}
+h2 {
+  text-align: center;
+  font-size: 70px;
+}
+html,body {
+  height: 100%;
+}
+.hello{
+  background-image: url("../J-images/b4.jpg") !important;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60%;
+  content: '';
+  -webkit-background-size:cover;
+  background-size: cover;
+}
+.cus-padding {
+  padding-right:;
+}
+.bg-area:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 0.5;
+}
+.Contact-form {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.Contact-form input, .Contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+  color: #333333;
+  border-radius: 25px;
+  max-width: 100%;
+}
+.Contact-form h2 {
+  color: white;
+}
+input:focus, textarea:focus, button:focus {
+  outline: none;
+}
+.Contact-form input[type=submit] {
+  width: auto;
+  padding: 15px 30px;
+  color: black;
+  font-weight: 700;
+}
+.right-text {
+  padding: 100px 0 100px 100px;
+}
+.right-text ul {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.right-text ul li i {
+  color: white;
+  padding: 10px;
+  line-height: 2.5;
+}
+.right-text h3 {
+  color: white;
+}
