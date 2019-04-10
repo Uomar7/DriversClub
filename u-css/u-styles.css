@@ -1,0 +1,25 @@
+
+.jumbotron{
+    font-family: 'Times New Roman';
+    background-color: rgb(5, 5, 5,0.9);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.jumbotron h1{
+    font-size: 100px;
+    color: rgb(214, 213, 213)
+}
+li{
+    font-weight: 470;
+    font-size: 18px;
+} 
+body{
+    background-image: url(../u-images/car.jpg);
+    background-size: cover;
+}
+#nav{
+background-color: rgb(12, 11, 11)
+}
