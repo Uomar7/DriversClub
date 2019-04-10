@@ -47,6 +47,10 @@
   padding: 20px 10px;
   text-align: center;
 }
+h3{
+  border-bottom: 1px solid black;
+ padding-bottom: 8px;
+}
 
 h2  {
   border-bottom: 1px solid blue:
@@ -60,10 +64,11 @@ h2  {
 .info  {
   font-family: serif;
   margin-left: 1px;
-
+  font-size: 20px;
   border-radius: 10px;
-  padding: 5px;
-  margin-bottom:;
+  padding: 8px;
+  margin-bottom:10px;
+  margin-top: 10px;
 }
 
 
@@ -135,7 +140,7 @@ font-size: 20px;
   border-color: black;
 }
 .final-footer{
-  background-color: grey;
+  border-top: 1px solid black;
   height:200px;
   width: 100%;
   margin-top: 30px;
