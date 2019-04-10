@@ -145,3 +145,15 @@ font-size: 20px;
   width: 100%;
   margin-top: 30px;
 }
+#icon  {
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+ border-radius: 10px
+ border:2px solid black;
+}
+.icons{
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
