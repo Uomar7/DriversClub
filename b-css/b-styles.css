@@ -34,9 +34,9 @@
   background-color: rgb(3, 3, 3, 0.5);
 }
 .zoom:hover {
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(0.5);
-  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(0.3);
+  transform: scale(1.01);
 }
 .text {
   background-color: rgb(3, 3, 3, 0.5);
@@ -60,33 +60,12 @@ h2  {
 .info  {
   font-family: serif;
   margin-left: 1px;
-  height:200px;
+
   border-radius: 10px;
   padding: 5px;
-  margin-bottom: 15px;
+  margin-bottom:;
 }
 
-#slideshow {
-    width: 40px;
-    height: 30px;
-    padding: 0;
-}
-#slideshow > div {
-    top: 0;
-    left: 0;
-}
-
-#slideshow > div > img {
-    border: 1px solid black;
-    box-shadow: 0 0 20px white;
-    margin-bottom: 0;
-    border-radius: 10px;
- }
-
- #slide{
-   width:100px;
-   height:50px;
- }
 
 #about{
 background-color: white;
@@ -126,6 +105,7 @@ font-size: 20px;
   background-color: rgb(3, 3, 3, 0.5);
   color: white;
   text-align: center;
+  height:50px;
 }
 .panel-title  {
   margin-bottom:20px;
@@ -139,10 +119,23 @@ font-size: 20px;
 }
 #img-all  {
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 3px;
+  padding: 0;
 }
 
 
 #par-about {
   font-size: 18px;
+}
+#heading  {
+  background-color: black;
+  color: white;
+}
+#panel  {
+  border-color: black;
+}
+.final-footer{
+  background-color: grey;
+  height: 
+  width: 100%;
 }
