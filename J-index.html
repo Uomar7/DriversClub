@@ -7,7 +7,7 @@
           <link href="J-css/J-bootstrap.css" rel="stylesheet" type="text/css">
           <link href="J-css/J-styles.css" rel="stylesheet" type="text/css">
           <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-          <script src="J-js/script.js"></script>
+          <script src="J-js/J-script.js"></script>
 
   </head>
   <body>
@@ -18,26 +18,32 @@
           <div class="col-md-7">
             <div class="Contact-form">
               <h2>Contact Us</h2>
-              <form action="">
+              <form action="https://formspree.io/jamesgathuru001@gmail.com" method="POST">
                 <div class="row">
+
                   <div class="col-md-6">
-                    <input type="text" name="" id="" placeholder="First Name *">
+                    <input type="text" name="first Name" class="firstName" placeholder="First Name *">
                   </div>
 
                   <div class="col-md-6">
-                    <input type="text" name="" id="" placeholder="Second Name *">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-6">
-                    <input type="tel" name="" id="" placeholder="Phone Number *">
-                  </div>
-                  <div class="col-md-6">
-                    <input type="date" name="" id="" placeholder="Date *">
+                    <input type="text" name="second Name" class="secondName" placeholder="Second Name *">
                   </div>
                 </div>
 
-                <p><textarea name="message" id="messsage" cols="30" rows="10" placeholder="Write something to us"></textarea></p>
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="email" name="email" class="email" placeholder="Email *">
+                  </div>
+
+                  <div class="col-md-6">
+                    <input type="date" name="date" class="date" placeholder="Date *">
+                  </div>
+                </div>
+
+                <p><textarea name="message" class="messsage" cols="30" rows="10" placeholder="Write something to us"></textarea></p>
+
+                <div class="status"></div>
+
                 <p><input type="submit" value="Send Details"></p>
 
               </form>
@@ -63,8 +69,8 @@
         </div>
       </div>
     </div>
-  <script   src="https://code.jquery.com/jquery-3.3.1.js"></script>
-  <script type="text/javascript" src="J-js/J-scripts.js"></script>
+  <script   src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="J-js/J-script.js"></script>
 
   </body>
 </html>
