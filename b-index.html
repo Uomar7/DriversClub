@@ -8,7 +8,7 @@
   <link href="b-css/b-styles.css" rel="stylesheet" type="text/css">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="b-js/b-script.js"></script>
+
 </head>
 
 <body>
@@ -18,7 +18,7 @@
   <nav id="you" class="navbar navbar-inverse">
     <div class="container">
 
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav" id="nav1">
         <li class="active"><a href="b-index.html">Home</a></li>
         <li><a href="u-index.html">Services</a></li>
         <li><a href="j-index.html">Contact us</a></li>
@@ -32,20 +32,19 @@
       <img src="./b-images/driver.jpg" width="100%">
       <div class="overlay">
         <div class="text">Safety on the road is a priority to all road users.
-          Ensure your safety.
+          Ensure your safety.<br>Drive safe.
         </div>
       </div>
     </div>
   </nav>
   <h2 id="aboutH">What we do </h2>
   <div class="container-fluid">
-    <div id="about">
-      <div class="panel pane-default">
-        <div class="panel-heading">
-        </div>
+    <div class="col-md-2">
+      <img src="./b-images/driver9.png" id="img4">
+    </div>
+    <div class="col-md-8">
+      <div id="about">
         <div class="panel-body">
-          <img src="./b-images/ntsa2.jpg" id="img2">
-
 
           <p id="par-about"><span class="D">D</span>rivers club acts as a link between drivers,clients and saccos.
             We provide a platform for junior,experienced and professional drivers to advertise themselves.
@@ -61,105 +60,46 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="panel panel-default" id="panel">
-            <div class="panel-heading" id="heading">
-          <h3 class="panel-title">Licensing</h3>
-        </div>
-          <div class="info">
-
-            <h3><a href="https://www.nextinsurance.co.ke/blog/ntsa-new-driving-license/">1.Drivers licence</a></h3>
-            <p id="par-about">Hey, be ware that there are many fake deiving licenses out there. register to a legalised
-              driving school.
-              We have some suggestions of legitimate driving schools,the likes of:
-              <ul>
-                <li>Glory</li>
-                <li>Petanns</li>
-                <li>kensafe</li>
-                <li>Seniors</li>
-                <li>Rocky</li>
-              </ul><br>
-              and many more.
-              <h3><a href="https://www.nextinsurance.co.ke/blog/check-driving-licence-original-kenya/">2.Your
-                  licence</a></h3>
-              <p id="par-about">You can check out if your license is original. Remember,with the new innovated digital
-                license,
-                you will have to keep renewing your license after every set time. This new system as implemented
-                by the CS of transport Fred Matiangi,is quite complex. Well the new system is actually considered of
-                great advantages
-                even though it comes with the burden of frequent assesment tests of drivers to verify their
-                ability to keep themselves and others safe on the road.</p>
-              <h3><a
-                  href="http://kam.co.ke/the-traffic-driving-schools-driving-instructors-and-driving-licences-rules-2018/">3.Types
-                  of licences</a></h3>
-              <p id="par-about">Driving like other studies has classes and levels. We have the common personal vehicle
-                drivers, who are also
-                grouped into allowed to carry passengers and the non-allowed.<br>
-                Other more advanced levels are the public car drivers and long hevy vehicle drivers.</p>
-          </div>
-        </div>
-        </div>
-
-        <div class="col-md-8">
-          <div class="panel panel-default" id="panel">
-            <div class="panel-heading" id="heading">
-              <h2 class="panel-title">Tour and business rides</h2>
-            </div>
-            <div class="info">
-            <p>Our customer base is growing rapidly, and we are constantly looking for new drivers who meet our criteria.
-               It is our goal to provide our customers with chauffeur-level service at a discounted price,
-                so we expect all our drivers to maintain high standards of professionalism and customer service. If you feel like you meet these standards,
-                 we welcome you to join our network of drivers who are providing an important service to customers across the country.</P>
-              <div class="zoom">
-                <img src="./b-images/taxi4.jpg" width="100%" id="img-all"><br>
-              </div>
-            <P>In many jurisdictions, bus drivers must have a special license above and beyond a regular driver's licence.
-               Bus drivers typically drive their vehicles between bus stations or stops. Bus drivers often drop off and pick up passengers on a predetermined route schedule.
-                In British English a different term, coach driver (or coach captain), is used for drivers on privately booked long-distance routes, tours and school trips.
-
-                    There are various types of bus drivers, including transit drivers,
-                         school bus drivers and tour bus drivers. Bus drivers may work for a city,
-                     public (state and national/federal) governments, school boards, and private enterprises, such as charter companies which run tour buses
-                      . Coach captains in Australia are frequently freelance sub-contractors who work for various bus and coach companies. Bus drivers also need
-                     to possess social skills for interacting with their passengers,
-                        which is a daily occurrence.
-            </p>
-
-            <div class="zoom">
-              <img src="./b-images/bus4.jpg" width="100%" id="img-all"><br>
-            </div>
-            <p id="footer">From long distance rides to short rides,we got you covered. Drivers trained.
-              We eliminate the need to interview drivers one by one dismissing the ones
-              who failed the test.View the driver meeting qualifications you need; be it night driver,
-              passenger driver or long vehicle drivers.</p>
-
-          </div>
-        </div>
-      </div>
-
-      </div>
+    <div class="col-md-2">
     </div>
-</body>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <style>
+          .mySlides {
+            display: none;
+          }
+        </style>
 
-<div class="footer">
-  <p>Travel by us, with us and for us </p>
-</div>
-<div class="final-footer">
-  <h4>Drivers club</h4>
-  
-  <p>Download Drivers club now to get premium offers <br>
-    promotions</p>
+        <h3 class="panel-title">Get the ride of your choice</h3>
+        <img src="./b-images/audi1.jpg" class="mySlides" id="img-all">
+        <img src="./b-images/bmw1.jpg" class="mySlides" id="img-all">
+        <img src="./b-images/merc2.jpg" class="mySlides" id="img-all">
+        <img src="./b-images/ford.jpg" class="mySlides" id="img-all">
+        <img src="./b-images/range.jpg" class="mySlides" id="img-all">
+      </div>
+      <script src="b-js/b-script.js"></script>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Travel by us, with us and for us </p>
+  </div>
+  <div class="final-footer">
+    <h4>Drivers club</h4>
+
+    <p>Download Drivers club now to get premium offers <br>
+      promotions</p>
     <img src="./b-images/goo.png" id="icon1">
     <img src="./b-images/goo.png" id="icon1">
-  <div class="icons">
-  connect with Drivers club
-  <img src="./b-images/fb.svg" id="icon">
-  <img src="./b-images/ig.png" id="icon">
-  <img src="./b-images/mail.png" id="icon">
-  <img src="./b-images/tw.svg" id="icon">
-</div>
-</div>
+    <div class="icons">
+      connect with Drivers club
+      <img src="./b-images/fb.svg" id="icon">
+      <img src="./b-images/ig.png" id="icon">
+      <img src="./b-images/mail.png" id="icon">
+      <img src="./b-images/tw.svg" id="icon">
+    </div>
+  </div>
 
 </html>
