@@ -28,7 +28,7 @@ li{
     bottom: 0px;
     left: center;
     right: center;
-    width: 40%;
+    width: 100%;
     transition: .6s ease;
 }
 li a:hover{
@@ -81,4 +81,34 @@ li a{
     color: aliceblue;
     margin-top: 8px;
     margin-bottom: 4px;
+}
+#austin {
+    display: none;
+}
+#bright {
+    display: none;
+}
+#james {
+    display: none;
+}
+#sam {
+    display: none;
+}
+#umar {
+    display: none;
+}
+#christine {
+    display: none;
+}
+#juliet {
+    display: none;
+}
+#amani {
+    display: none;
+}
+#row2{
+    color: aliceblue
+}
+#row .col li:hover{
+    cursor: pointer;
 }
