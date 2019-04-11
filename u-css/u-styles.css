@@ -109,6 +109,6 @@ li a{
 #row2{
     color: aliceblue
 }
-#row .col li:hover{
+#row2:hover{
     cursor: pointer;
 }
