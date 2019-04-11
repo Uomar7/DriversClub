@@ -16,52 +16,113 @@ body{
 .club {
     text-align: center;
 }
-
-#img1{
-    width:100%;
-    margin-bottom:30px;
-
+.container {
+  margin-left: 0;
+  margin-right: 0;
+  background-color: black;
 }
 
-/* Dropdown Button */
-.dropbtn {
-    background-color: rgba(116, 21, 14, 0.295);
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
-  
+.container2 {
+  position: relative;
+  width: 100%;
+}
+
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(3, 3, 3, 0.5);
+
+}
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(0.5);
+  transform: scale(1.1);
+}
+
+.text {
+  background-color: rgb(3, 3, 3, 0.5);
+  opacity: .8;
+  color: white;
+  font-size: 20px;
+  width: 40%;
+  float:right;
+  padding: 20px 10px;
+  text-align: left;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family:sans-serif;
+}
+.team-section{
+  overflow: hidden;
+  text-align: center;
+  background:black;
+  padding: 60px;
+}
+.team-section h1{
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  color: white;
+  font-size: 40px;
+}
+.border{
+  display: block;
+  margin: auto;
+  width: 160px;
+  height: 3px;
+  background:#4EF294;
+  margin-bottom: 40px;
+}
+.ps{
+  margin-bottom: 40px;
+}
+.ps a{
+  display: inline-block;
+  margin: 0 30px;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 100%
+}
+.ps a img{ 
+  filter: grayscale(100%);
+  transition: 0.4s all;   
+}
+.ps a:hover > img{
+  filter: none;
+}
+.section{
+  width: 600px;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  height: 0;
+  overflow: hidden;
+}
+.section:target{
+  height:auto
+}
+.name{
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size:22px;
+}
+
+
