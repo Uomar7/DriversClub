@@ -1,6 +1,9 @@
+body{
+    background-color: black;
+}
 #head::before{
     content: "DRIVERS' CLUB";
-    position:absolute;
+    position: fixed;
     font-size: 100px;
     font-family: 'Gill Sans';
     font-weight: 600;
@@ -11,8 +14,8 @@
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-top: 350px;
-    background: rgb(11, 11, 17,.4)
+    margin-top: 0px;
+    background: rgb(11, 11, 17,.4);
 }
 li{
     font-weight:900;
@@ -45,19 +48,37 @@ li a{
     font-weight: 500;
     font-family: serif;
 }
-.container p{
-    font-size: 22px;
+#contp p{
+    font-size: 20px;
     font-family: 'Questrial';
     font-weight: 500;
     padding-top: 5px;
     margin-top: 5px;
+    color: aliceblue;
 }
-.container p::first-letter{
+.well{
+    background-color: black;
+    margin-bottom: 40px;
+    border-color: black;
+    -webkit-box-shadow: 4px 2px 25px 3px rgba(237, 237, 237, 1);
+    -moz-box-shadow: 4px 2px 25px 3px rgba(237, 237, 237, 1);
+    box-shadow: 4px 2px 25px 3px rgba(237, 237, 237, 1);
+}
+.panel{
+    background-color: black;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#contp p::first-letter{
     font-size:30px;
 }
 #hed{
     font-family: cambria;
-    font-size: 30px;
+    font-size: 40px;;
     display: flex;
     justify-content: center;
+    color: aliceblue;
+    margin-top: 8px;
+    margin-bottom: 4px;
 }
