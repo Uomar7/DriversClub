@@ -9,42 +9,78 @@
           <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
           <script src="J-js/J-script.js"></script>
 
+          <style>
+            a:link {
+            color: white;
+            background-color: inherit;
+            text-decoration: none;
+          }
+            a:visited {
+            color: green;
+            background-color: inherit;
+            text-decoration: underline;
+          }
+            a:hover {
+            color: green;
+            background-color: inherit;
+            text-decoration: underline;
+          }
+            a:active {
+            color: red;
+            background-color: inherit;
+            text-decoration: underline;
+          }
+          </style>
+
   </head>
-  <body>
-    <div class="cus-padding">
-      <div class="bg-area hello"></div>
+  <body id="hello">
+
+    <div class="nav nav-tabs" id ="nav">
+      <ul class="nav nav-tabs" id="nav">
+        <li role="presentation"> <a href="index.html">Home</a></li>
+        <li role="presentation"> <a href="u-index.html">Service</a></li>
+        <li role="presentation"> <a href="J-index.html">Contact</a></li>
+        <li role="presentation"> <a href="a-index.html">About us</a></li>
+      </ul>
+    </div>
+
       <div class="container">
+
+
+    <div class="cus-padding">
+      <div class="bg-area"></div>
+
         <div class="row">
           <div class="col-md-7">
             <div class="Contact-form">
               <h2>Contact Us</h2>
-              <form action="https://formspree.io/jamesgathuru001@gmail.com" method="POST">
+              <form action=" https://formspree.io/jamesgathuru001@gmail.com" method="POST">
                 <div class="row">
 
-                  <div class="col-md-6">
-                    <input type="text" name="first Name" class="firstName" placeholder="First Name *">
+                  <div class="col-md-6" id='f1'>
+                    <input type="text" name="first Name" class="firstName" required placeholder="First Name *">
                   </div>
 
-                  <div class="col-md-6">
-                    <input type="text" name="second Name" class="secondName" placeholder="Second Name *">
+                  <div class="col-md-6" id='f2'>
+                    <input type="text" name="second Name" class="secondName" required placeholder="Second Name *">
                   </div>
                 </div>
 
                 <div class="row">
-                  <div class="col-md-6">
-                    <input type="email" name="email" class="email" placeholder="Email *">
+                  <div class="col-md-6" id='f3'>
+                    <input type="email" name="email" class="email"required  placeholder="Email *">
                   </div>
 
-                  <div class="col-md-6">
-                    <input type="date" name="date" class="date" placeholder="Date *">
+                  <div class="col-md-6" id='f4'>
+                    <input type="date" name="date" class="date" required placeholder="Date *">
                   </div>
                 </div>
 
-                <p><textarea name="message" class="messsage" cols="30" rows="10" placeholder="Write something to us"></textarea></p>
+                <p id='f5'><textarea name="message" class="messsage" cols="30" rows="10" required  placeholder="Write something to us"></textarea></p>
 
                 <div class="status"></div>
 
-                <p><input type="submit" value="Send Details"></p>
+                <p><input type="submit" class="submit" value="Send Details"></p>
 
               </form>
             </div>
@@ -55,13 +91,13 @@
 
               <ul>
                 <li><i class="fa fa-check"> We are creative and success oriented</li>
-                <li><i class="fa fa-check"> We provide projects on Time</li>
+                <li><i class="fa fa-check"> We provide Drivers on Time</li>
                 <li><i class="fa fa-check"> Our Customer service is Awesome</li>
                 <li><i class="fa fa-check"> We have the Best Drivers</li>
                 <li><i class="fa fa-check"> We are located in Nairobi,Kenya</li>
                 <li><i class="fa fa-check"> Ours have Good Refund Policies</li>
                 <li><i class="fa fa-check"> Customer satisfaction is our Target</li>
-                <li><i class="fa fa-check"> We Put You First!</li>
+                <li><i class="fa fa-check"><strong style="font-size:20px;">We Put You First!</strong></li>
               </ul>
 
             </div>

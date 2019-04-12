@@ -1,136 +1,105 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link href="b-css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="b-css/b-styles.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="b-js/b-script.js"></script>
-  </head>
-  <body>
-    <div class="jumbotron">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="b-css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="b-css/b-styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="jumbotron">
     <h1>Drivers' club</h1>
-     </div>
-     <nav id="you" class="navbar navbar-inverse">
-  <div class="container">
-
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact us</a></li>
-      <li><a href="#">About us</a></li>
-
-    </ul>
-
   </div>
+  <nav id="you" class="navbar navbar-inverse">
+    <div class="container">
 
-  <div class="container2">
-  <img src="./b-images/driver.jpg" width="100%" >
-  <div class="overlay">
-    <div class="text">Safety on the road is a priority to all road users.
-      Ensure your safety.
+      <ul class="nav nav-tabs" id="nav1">
+        <li class="active"><a href="b-index.html">Home</a></li>
+        <li><a href="u-index.html">Services</a></li>
+        <li><a href="j-index.html">Contact us</a></li>
+        <li><a href="a-index.html">About us</a></li>
+
+      </ul>
+
+    </div>
+
+    <div class="container2">
+      <img src="./b-images/driver.jpg" width="100%">
+      <div class="overlay">
+        <div class="text">Safety on the road is a priority to all road users.
+          Ensure your safety.<br>Drive safe.
+        </div>
+      </div>
+    </div>
+  </nav>
+  <h2 id="aboutH">What we do </h2>
+  <div class="container-fluid">
+    <div class="col-md-2">
+      <img src="./b-images/driver9.png" id="img4">
+    </div>
+    <div class="col-md-8">
+      <div id="about">
+        <div class="panel-body">
+
+          <p id="par-about"><span class="D">D</span>rivers club acts as a link between drivers,clients and saccos.
+            We provide a platform for junior,experienced and professional drivers to advertise themselves.
+            All drivers are elligible to sign up and get their details displayed so that clients can contact them.
+            Here you can be able to know between real drivers and fake drivers who pretend to be drivers
+            so as to perform malicious acts.<br>
+            So how do we ensure the drivers are real?<br>
+            We ensure that every driver registering must give the information on their ID and Drivers license.
+            This way you can be able to check registration numbers on <a
+              href="https://www.nextinsurance.co.ke/blog/check-driving-licence-original-kenya/"> NTSA</a> to confirm
+            their authenticity yourself.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
     </div>
   </div>
-</div>
-</nav>
-<h2 id="aboutH">What we do </h2>
-<div class="container-fluid">
-<div id="about">
-  <div class="panel pane-default">
-  <div class="panel-heading">
-</div>
-  <div class="panel-body">
-<img src="./b-images/ntsa2.jpg" id="img2">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <style>
+          .mySlides {
+            display: none;
+          }
+        </style>
 
-
- <p id="par-about"><span class="D">D</span>rivers club acts as a link between drivers,clients and saccos.
-   We provide a platform for junior,experienced and professional drivers to advertise themselves.
-   All drivers are elligible to sign up and get their details displayed so that clients can contact them.
-   Here you can be able to know between real drivers and fake drivers who pretend to be drivers
-   so as to perform malicious acts.<br>
-   So how do we ensure the drivers are real?<br>
-   We ensure that every driver registering must give the information on their ID and Drivers license.
-   This way you can be able to check registration numbers on <a href="https://www.nextinsurance.co.ke/blog/check-driving-licence-original-kenya/"> NTSA</a> to confirm their authenticity yourself.
-    </p>
+        <h3 class="panel-title">Get the ride of your choice</h3>
+        <img src="./b-images/audi1.jpg" class="mySlides" id="img-all">
+        <img src="./b-images/bmw1.jpg" class="mySlides" id="img-all">
+        <img src="./b-images/merc2.jpg" class="mySlides" id="img-all">
+        <img src="./b-images/ford.jpg" class="mySlides" id="img-all">
+        <img src="./b-images/range.jpg" class="mySlides" id="img-all">
+      </div>
+      <script src="b-js/b-script.js"></script>
+    </div>
   </div>
-</div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <h3>About driving</h3>
-      <div id="slideshow">
-  <div>
-    <img src="./b-images/glory.webp" alt="Glory" id="slide"><br>
-    Glory
-  </div>
-  <div>
-    <img src="./b-images/kensafe.png" alt="Kensafe" id="slide"><br>
-    Kensafe
-  </div>
-  <div>
-    <img src="./b-images/roky.jpg" alt="Rocky" id="slide"><br>
-    Rocky
-  </div>
-  <div>
-    <img src="./b-images/seniors.jpg" alt=seniors id="slide"><br>
-    Seniors.
-  </div>
-</div>
-</div>
-
-    <div class="col-md-4">
-      <div class="panel pane-default">
-    <div class="panel-heading">
-     <h2 class="panel-title">Commercial buses</h1>
-  </div>
-  <div class="zoom">
-  <img src="./b-images/easybus.jpg" width="100%" id="img-all">
-</div>
-
-<div class="zoom">
-  <img src="./b-images/bus1.jpg" width="100%" id="img-all"><br>
-</div>
-  <div class="zoom">
-  <img src="./b-images/bus3.jpg" width="100%" id="img-all"><br>
-</div>
-  <div class="zoom">
-  <img src="./b-images/bus4.jpg" width="100%" id="img-all"><br>
-</div>
-  <p id="footer">From long distance rides to short rides,we got you covered. Drivers trained.
-   We eliminate the need to interview drivers one by one dismissing the ones
-   who failed the test.View the driver meeting qualifications you need; be it night driver,
-   passenger driver or long vehicle drivers.</p>
-
-  </div>
-</div>
-  <div class="col-md-4">
-    <div class="panel pane-default">
-  <div class="panel-heading">
-   <h2 class="panel-title">Personals and taxis</h2>
-</div>
-    <div class="zoom">
-    <img src="./b-images/minibus.jpg" width="100%" id="img-all">
-  </div>
-    <div class="zoom">
-    <img src="./b-images/taxi2.jpg" width="100%" id="img-all"><br>
-  </div>
-    <div class="zoom">
-    <img src="./b-images/taxi4.jpg" width="100%" id="img-all"><br>
-  </div>
-    <p id="footer">In case you just feel like your too tired to ride your own car,
-      get the chance to hire a chauffer or a one day driver. Be able to asses the drivers profile
-    to ensure you do not hire up a criminal. Enjoy your ride feeling safe both as a road user
-  and as a client to a well trained licensed driver.</p>
-  </div>
-</div>
-</div>
-</div>
-  </body>
 
   <div class="footer">
-  <p>Travel with us</p>
-</div>
-<div class="final-footer">
-</div>
+    <p>Travel by us, with us and for us </p>
+  </div>
+  <div class="final-footer">
+    <h4>Drivers club</h4>
+
+    <p>Download related app; SafeBoda for Drivers <br>
+    to enjoy more drive services</p>
+    <img src="./b-images/goo.png" id="icon1">
+    <img src="./b-images/apps.png" id="icon1">
+    <div class="icons">
+      Connect with Drivers Club
+
+      <img src="./b-images/ig.png" id="icon">
+
+    </div>
+  </div>
+</body>
+
 </html>
