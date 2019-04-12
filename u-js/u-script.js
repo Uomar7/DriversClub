@@ -104,3 +104,9 @@ $(document).ready(function(){
     });
 
 });
+$(document).ready(function () {
+    $("#btn1").click(function(){
+        $("#form1").show();
+        event.preventDefault();
+    })
+})
