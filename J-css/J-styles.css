@@ -2,11 +2,6 @@ img{
   max-width: 100%;
   height: auto;
 }
-#nav{
-  overflow: visible;
-  font-size: 30px;
-  text-align: left;
-}
 body {
   background-color: black;
   background-image: url("../J-images/b4.jpg") !important;
@@ -29,8 +24,7 @@ html,body {
   height: 100%;
   position: absolute;
   left: 0;
-  top: 5%;
-  right: 0;
+  top: 5.5%;
   width: 100%;
   content: '';
   -webkit-background-size:cover;
