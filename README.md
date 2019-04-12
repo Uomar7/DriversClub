@@ -29,15 +29,15 @@ Run a local server on your I.D.E or use the github published link to see your up
 
 ## Contributing
 
-Samuel Ngugi Kinuthia (samkkinuthia28@gmail.com)
+[Samuel Ngugi Kinuthia](samkkinuthia28@gmail.com)
 
-Umar Ali Ngare (uomarearlie7@gmail.com)
+[Umar Ali Ngare](uomarearlie7@gmail.com)
 
-Austin Waweru (austinwaweru12@gmail.com)
+[Austin Waweru](austinwaweru12@gmail.com)
 
-Bright Mukonesi (be.rightmuk@gmail.com)
+[Bright Mukonesi] (be.rightmuk@gmail.com)
 
-James Gathuru (jamesgathuru001@gmail.com)
+[James Gathuru] (jamesgathuru001@gmail.com)
 
 ## Versioning
 
