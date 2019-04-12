@@ -17,7 +17,8 @@ There is no installation process required as this is a website.
 
 ## Deployment
 
-Run a local server on your I.D.E or use the github published link to see your updated version live.
+Run a local server on your I.D.E or use the github published link to see your updated version [live](https://uomar7.github.io/DriversClub/).
+
 
 ## Built With
 
@@ -35,9 +36,9 @@ Run a local server on your I.D.E or use the github published link to see your up
 
 [Austin Waweru](austinwaweru12@gmail.com)
 
-[Bright Mukonesi] (be.rightmuk@gmail.com)
+[Bright Mukonesi](be.rightmuk@gmail.com)
 
-[James Gathuru] (jamesgathuru001@gmail.com)
+[James Gathuru](jamesgathuru001@gmail.com)
 
 ## Versioning
 
