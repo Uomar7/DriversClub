@@ -9,8 +9,8 @@
 }
 #nav1  {
   border-bottom: 1px solid white;
+ color: white;
 }
-
 .container-fluid {
   margin-top: 1px;
 }
@@ -181,8 +181,9 @@ box-shadow: 3px 7px 32px -7px rgba(191,191,191,1);
 
 #par-about {
   font-size: 18px;
-  border-left: 3px solid black;
-  padding-left:20px:
+  border-left: 3px solid white;
+  padding-left:20px;
+  font-family: serif;
 
 }
 
